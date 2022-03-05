@@ -1,74 +1,6 @@
 html {
     font-size: 10px;
 }
-@media screen and (max-width: 700px){
-    .main img {
-        display: none;
-    }
-    footer .address {
-        padding-left: 0rem;
-        display: block;
-    }
-}
-@media screen and (max-width: 1200px){
-    html {
-        font-size: 5px;
-    }
-    .header-right{
-        position: relative;
-        right: 10rem;
-    }
-    .navi{
-    display: table;
-    position: relative;
-    top:18rem;
-    margin-bottom:25rem;
-    
-     }
-     .side h5 {
-        margin-bottom: 2rem;
-   position: relative;
-   top: 1.5rem;
-    }
-     .side ul{
-         padding-top: 0rem;
-         padding-left: 8rem;
-         width: 80px;
-     }
-     .side1{
-         width: 25rem;
-         
-     }
-     .side2{
-        width: 25rem;
-        
-    }
-
-     
-     .news{
-     width: 340px;
-     position: relative;
-     left: 10rem;
-    }
-     .footernavi {
-         padding-bottom: 2rem;
-     }
-     .footernavi ul{
-        padding-bottom: 3rem;
-    }
-
-     .footernavi li{
-         margin: 0rem;
-         display: flex;
-         height: 10rem;
-     }
-     .footernavi img{
-        height: 1rem;
-        height: 1rem;
-
-}
-}
-
 body {
 
     width: 100%;
@@ -129,7 +61,13 @@ body {
     letter-spacing: 0.2rem;
     margin-left: 2rem;
 }
-
+.rute {
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+}
+.rute p{
+    display: inline;
+}
 nav ul{
     display: flex;
     margin: 0px;
@@ -233,7 +171,6 @@ padding:1.7rem 0px 1.8rem 0px;
 .side2 {
     border: rgb(108,198,196) solid 1px;
     margin-top: 2rem;
-    display: block;
     border-radius: 0.8rem;
 }
 .side2 h5{
@@ -266,44 +203,8 @@ padding:1.7rem 0px 1.8rem 0px;
     padding:0.2rem 0px 1.1rem 0px;    
     vertical-align: middle;
 }
-.main img{
-    margin-left: 2rem;
-    width: 69.4%;
-    display: inline-block;
-    margin-top: 1rem;
-}
-.news {
-    background-color: white;
-    margin-left: 29.6rem;
-    font-size: 1.4rem;
-    padding-bottom: 2rem;
-}
-.news h5{
-    display: block;
-    font-size: 1.8rem;
-    padding: 2rem 0.6rem 2rem 2rem;
-    width: auto;
-    border-bottom: rgb(108,198,196) solid 0.5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
-}
-.news dl{
-    margin: 0px;
-}
-
-.news dt{
-    float: left;
-    margin: 0.9rem 0px 0px 2rem;
-    padding: 0px 2.5rem 1.1rem 0px;
-}
-.news  dd{
-    padding: 1rem ;
-    line-height: 150%;
-    border-bottom: gray solid 0.1rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 0px;
+iframe {
+    margin: 2rem;
 }
 .footernavi ul{
     display: inline-block;
